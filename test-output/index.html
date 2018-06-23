@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">4 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-GoogleSearch_(0)">
+              <span class="suite-name border-passed">GoogleSearch (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-GoogleSearch_(0)">
+                    <span>C:\Users\nicky.vuerstaek\eclipse-workspace\asf\src\test\java\asf\asf\google\tests\GoogleSearchAdesso.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-GoogleSearch_(0)">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-GoogleSearch_(0)">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-GoogleSearch_(0)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-GoogleSearch_(0)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-GoogleSearch_(0)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-GoogleSearch_(0)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GoogleSearch_(0)" class="hide-methods passed suite-GoogleSearch_(0)"> (hide)</a> <!-- hide-methods passed suite-GoogleSearch_(0) -->
+                      <a href="#" panel-name="suite-GoogleSearch_(0)" class="show-methods passed suite-GoogleSearch_(0)"> (show)</a> <!-- show-methods passed suite-GoogleSearch_(0) -->
+                    </span>
+                    <div class="method-list-content passed suite-GoogleSearch_(0)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleSearch_(0)" title="asf.asf.google.scripts.GoogleSearch" hash-for-method="googleSearch(Adesso)">googleSearch(Adesso)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleSearch_(0)" title="asf.asf.google.scripts.GoogleSearch" hash-for-method="googleVerifySpanText(adesso Schweiz AG)">googleVerifySpanText(adesso Schweiz AG)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GoogleSearch_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-GoogleSearch_(2)">
+              <span class="suite-name border-failed">GoogleSearch (2)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-GoogleSearch_(2)">
+                    <span>C:\Users\nicky.vuerstaek\eclipse-workspace\asf\src\test\java\asf\asf\google\tests\GoogleSearchBern.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-GoogleSearch_(2)">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-GoogleSearch_(2)">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-GoogleSearch_(2)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-GoogleSearch_(2)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-GoogleSearch_(2)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-GoogleSearch_(2)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-GoogleSearch_(2)" class="hide-methods failed suite-GoogleSearch_(2)"> (hide)</a> <!-- hide-methods failed suite-GoogleSearch_(2) -->
+                      <a href="#" panel-name="suite-GoogleSearch_(2)" class="show-methods failed suite-GoogleSearch_(2)"> (show)</a> <!-- show-methods failed suite-GoogleSearch_(2) -->
+                    </span>
+                    <div class="method-list-content failed suite-GoogleSearch_(2)">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleSearch_(2)" title="asf.asf.google.scripts.GoogleSearch" hash-for-method="googleVerifySpanText(Beron)">googleVerifySpanText(Beron)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-GoogleSearch_(2) -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GoogleSearch_(2)" class="hide-methods passed suite-GoogleSearch_(2)"> (hide)</a> <!-- hide-methods passed suite-GoogleSearch_(2) -->
+                      <a href="#" panel-name="suite-GoogleSearch_(2)" class="show-methods passed suite-GoogleSearch_(2)"> (show)</a> <!-- show-methods passed suite-GoogleSearch_(2) -->
+                    </span>
+                    <div class="method-list-content passed suite-GoogleSearch_(2)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleSearch_(2)" title="asf.asf.google.scripts.GoogleSearch" hash-for-method="googleSearch(Bern)">googleSearch(Bern)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GoogleSearch_(2) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-GoogleSearch_(1)">
+              <span class="suite-name border-passed">GoogleSearch (1)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-GoogleSearch_(1)">
+                    <span>C:\Users\nicky.vuerstaek\eclipse-workspace\asf\src\test\java\asf\asf\google\tests\GoogleSearchZurich.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-GoogleSearch_(1)">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-GoogleSearch_(1)">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-GoogleSearch_(1)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-GoogleSearch_(1)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-GoogleSearch_(1)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-GoogleSearch_(1)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GoogleSearch_(1)" class="hide-methods passed suite-GoogleSearch_(1)"> (hide)</a> <!-- hide-methods passed suite-GoogleSearch_(1) -->
+                      <a href="#" panel-name="suite-GoogleSearch_(1)" class="show-methods passed suite-GoogleSearch_(1)"> (show)</a> <!-- show-methods passed suite-GoogleSearch_(1) -->
+                    </span>
+                    <div class="method-list-content passed suite-GoogleSearch_(1)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleSearch_(1)" title="asf.asf.google.scripts.GoogleSearch" hash-for-method="googleSearch(Zurich)">googleSearch(Zurich)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleSearch_(1)" title="asf.asf.google.scripts.GoogleSearch" hash-for-method="googleVerifySpanText(Zürich)">googleVerifySpanText(Zürich)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GoogleSearch_(1) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-GoogleSearch" class="panel GoogleSearch">
+        </div> <!-- panel GoogleSearch -->
+        <div panel-name="suite-GoogleSearch_(0)" class="panel GoogleSearch_(0)">
+          <div class="suite-GoogleSearch_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">asf.asf.google.scripts.GoogleSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleSearch(Adesso)">
+                  </a> <!-- googleSearch(Adesso) -->
+                  <span class="method-name">googleSearch</span>
+                  <span class="parameters">(Adesso)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleVerifySpanText(adesso Schweiz AG)">
+                  </a> <!-- googleVerifySpanText(adesso Schweiz AG) -->
+                  <span class="method-name">googleVerifySpanText</span>
+                  <span class="parameters">(adesso Schweiz AG)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoogleSearch_(0)-class-passed -->
+        </div> <!-- panel GoogleSearch_(0) -->
+        <div panel-name="suite-GoogleSearch_(2)" class="panel GoogleSearch_(2)">
+          <div class="suite-GoogleSearch_(2)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">asf.asf.google.scripts.GoogleSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleVerifySpanText(Beron)">
+                  </a> <!-- googleVerifySpanText(Beron) -->
+                  <span class="method-name">googleVerifySpanText</span>
+                  <span class="parameters">(Beron)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Beron] but found [Bern]
+	at asf.asf.google.GoogleActions.googleVerifySpanText(GoogleActions.java:17)
+	at asf.asf.google.scripts.GoogleSearch.googleVerifySpanText(GoogleSearch.java:20)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoogleSearch_(2)-class-failed -->
+          <div class="suite-GoogleSearch_(2)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">asf.asf.google.scripts.GoogleSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleSearch(Bern)">
+                  </a> <!-- googleSearch(Bern) -->
+                  <span class="method-name">googleSearch</span>
+                  <span class="parameters">(Bern)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoogleSearch_(2)-class-passed -->
+        </div> <!-- panel GoogleSearch_(2) -->
+        <div panel-name="suite-GoogleSearch_(1)" class="panel GoogleSearch_(1)">
+          <div class="suite-GoogleSearch_(1)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">asf.asf.google.scripts.GoogleSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleSearch(Zurich)">
+                  </a> <!-- googleSearch(Zurich) -->
+                  <span class="method-name">googleSearch</span>
+                  <span class="parameters">(Zurich)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleVerifySpanText(Zürich)">
+                  </a> <!-- googleVerifySpanText(Zürich) -->
+                  <span class="method-name">googleVerifySpanText</span>
+                  <span class="parameters">(Zürich)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoogleSearch_(1)-class-passed -->
+        </div> <!-- panel GoogleSearch_(1) -->
+        <div panel-name="test-xml-GoogleSearch" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nicky.vuerstaek\eclipse-workspace\asf\src\test\java\asf\asf\google\testSets\GoogleRegressionChrome.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GoogleSearch&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;../asf/src/test/java/asf/asf/google/tests/GoogleSearchAdesso.xml&quot;/&gt;
+    &lt;suite-file path=&quot;../asf/src/test/java/asf/asf/google/tests/GoogleSearchZurich.xml&quot;/&gt;
+    &lt;suite-file path=&quot;../asf/src/test/java/asf/asf/google/tests/GoogleSearchBern.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- GoogleSearch --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-GoogleSearch_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nicky.vuerstaek\eclipse-workspace\asf\src\test\java\asf\asf\google\tests\GoogleSearchAdesso.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GoogleSearch (0)&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GoogleSearchAdesso&quot;&gt;
+    &lt;parameter name=&quot;search&quot; value=&quot;Adesso&quot;/&gt;
+    &lt;parameter name=&quot;verify&quot; value=&quot;adesso Schweiz AG&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://www.google.ch&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;asf.asf.google.scripts.GoogleSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GoogleSearchAdesso --&gt;
+&lt;/suite&gt; &lt;!-- GoogleSearch (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-GoogleSearch_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nicky.vuerstaek\eclipse-workspace\asf\src\test\java\asf\asf\google\tests\GoogleSearchBern.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GoogleSearch (2)&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GoogleSearchAdesso&quot;&gt;
+    &lt;parameter name=&quot;search&quot; value=&quot;Bern&quot;/&gt;
+    &lt;parameter name=&quot;verify&quot; value=&quot;Beron&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://www.google.ch&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;asf.asf.google.scripts.GoogleSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GoogleSearchAdesso --&gt;
+&lt;/suite&gt; &lt;!-- GoogleSearch (2) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-GoogleSearch_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nicky.vuerstaek\eclipse-workspace\asf\src\test\java\asf\asf\google\tests\GoogleSearchZurich.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GoogleSearch (1)&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GoogleSearchAdesso&quot;&gt;
+    &lt;parameter name=&quot;search&quot; value=&quot;Zurich&quot;/&gt;
+    &lt;parameter name=&quot;verify&quot; value=&quot;Zürich&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://www.google.ch&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;asf.asf.google.scripts.GoogleSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GoogleSearchAdesso --&gt;
+&lt;/suite&gt; &lt;!-- GoogleSearch (1) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GoogleSearch" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GoogleSearch</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GoogleSearch_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GoogleSearch (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GoogleSearchAdesso (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GoogleSearch_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GoogleSearch (2)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GoogleSearchAdesso (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GoogleSearch_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GoogleSearch (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GoogleSearchAdesso (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GoogleSearch" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GoogleSearch</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GoogleSearch_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GoogleSearch (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GoogleSearch_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GoogleSearch (2)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GoogleSearch_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GoogleSearch (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GoogleSearch" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GoogleSearch</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GoogleSearch');
+function tableData_GoogleSearch() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['GoogleSearch']= { tableData: data, tableDiv: 'times-div-GoogleSearch'}
+return data;
+}
+              </script>
+              <div id="times-div-GoogleSearch">
+              </div> <!-- times-div-GoogleSearch -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GoogleSearch_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GoogleSearch (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GoogleSearch_(0)');
+function tableData_GoogleSearch_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'googleSearch')
+data.setCell(0, 2, 'asf.asf.google.scripts.GoogleSearch')
+data.setCell(0, 3, 1430);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'googleVerifySpanText')
+data.setCell(1, 2, 'asf.asf.google.scripts.GoogleSearch')
+data.setCell(1, 3, 38);
+window.suiteTableData['GoogleSearch_(0)']= { tableData: data, tableDiv: 'times-div-GoogleSearch_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-GoogleSearch_(0)">
+              </div> <!-- times-div-GoogleSearch_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GoogleSearch_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GoogleSearch (2)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GoogleSearch_(2)');
+function tableData_GoogleSearch_(2)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'googleSearch')
+data.setCell(0, 2, 'asf.asf.google.scripts.GoogleSearch')
+data.setCell(0, 3, 1409);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'googleVerifySpanText')
+data.setCell(1, 2, 'asf.asf.google.scripts.GoogleSearch')
+data.setCell(1, 3, 36);
+window.suiteTableData['GoogleSearch_(2)']= { tableData: data, tableDiv: 'times-div-GoogleSearch_(2)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-GoogleSearch_(2)">
+              </div> <!-- times-div-GoogleSearch_(2) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GoogleSearch_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GoogleSearch (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GoogleSearch_(1)');
+function tableData_GoogleSearch_(1)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'googleSearch')
+data.setCell(0, 2, 'asf.asf.google.scripts.GoogleSearch')
+data.setCell(0, 3, 1634);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'googleVerifySpanText')
+data.setCell(1, 2, 'asf.asf.google.scripts.GoogleSearch')
+data.setCell(1, 3, 32);
+window.suiteTableData['GoogleSearch_(1)']= { tableData: data, tableDiv: 'times-div-GoogleSearch_(1)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-GoogleSearch_(1)">
+              </div> <!-- times-div-GoogleSearch_(1) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GoogleSearch" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GoogleSearch</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GoogleSearch_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GoogleSearch (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GoogleSearch_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GoogleSearch (2)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GoogleSearch_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GoogleSearch (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GoogleSearch" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GoogleSearch_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GoogleSearch_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GoogleSearch_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GoogleSearch" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GoogleSearch_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">asf.asf.google.scripts.GoogleSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startWebDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUrl(http://www.google.ch)</span>
+                <span class="method-start">4139 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">googleSearch(Adesso)</span>
+                <span class="method-start">5518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleVerifySpanText(adesso Schweiz AG)</span>
+                <span class="method-start">6952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">6991 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GoogleSearch_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">asf.asf.google.scripts.GoogleSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startWebDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUrl(http://www.google.ch)</span>
+                <span class="method-start">3302 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">googleSearch(Bern)</span>
+                <span class="method-start">4516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">googleVerifySpanText(Beron)</span>
+                <span class="method-start">5927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">5964 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GoogleSearch_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">asf.asf.google.scripts.GoogleSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startWebDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUrl(http://www.google.ch)</span>
+                <span class="method-start">3220 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">googleSearch(Zurich)</span>
+                <span class="method-start">4518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleVerifySpanText(Zürich)</span>
+                <span class="method-start">6154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">6187 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

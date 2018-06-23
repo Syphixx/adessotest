@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<suite name="GoogleSearch">
+	<parameter name="browser" value ="chrome"/>
+	
+	<suite-files>
+		<suite-file path="../asf/src/test/java/asf/asf/google/tests/GoogleSearchAdesso.xml" />
+		<suite-file path="../asf/src/test/java/asf/asf/google/tests/GoogleSearchZurich.xml" />
+		<suite-file path="../asf/src/test/java/asf/asf/google/tests/GoogleSearchBern.xml" />
+	</suite-files>
+</suite>

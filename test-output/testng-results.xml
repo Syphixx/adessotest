@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GoogleSearch" duration-ms="0" started-at="2018-02-16T12:28:43Z" finished-at="2018-02-16T12:28:43Z">
+    <groups>
+    </groups>
+  </suite> <!-- GoogleSearch -->
+  <suite name="GoogleSearch (0)" duration-ms="7695" started-at="2018-02-16T12:28:22Z" finished-at="2018-02-16T12:28:30Z">
+    <groups>
+    </groups>
+    <test name="GoogleSearchAdesso" duration-ms="7695" started-at="2018-02-16T12:28:22Z" finished-at="2018-02-16T12:28:30Z">
+      <class name="asf.asf.google.scripts.GoogleSearch">
+        <test-method status="PASS" signature="startWebDriver(java.lang.String)[pri:0, instance:asf.asf.google.scripts.GoogleSearch@6a1aab78]" name="startWebDriver" is-config="true" duration-ms="4139" started-at="2018-02-16T12:28:22Z" finished-at="2018-02-16T12:28:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="setUrl(java.lang.String)[pri:0, instance:asf.asf.google.scripts.GoogleSearch@6a1aab78]" name="setUrl" is-config="true" duration-ms="1368" started-at="2018-02-16T12:28:26Z" depends-on-methods="asf.asf.general.Selenium.startWebDriver" finished-at="2018-02-16T12:28:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUrl -->
+        <test-method status="PASS" signature="googleSearch(java.lang.String)[pri:0, instance:asf.asf.google.scripts.GoogleSearch@6a1aab78]" name="googleSearch" duration-ms="1430" started-at="2018-02-16T12:28:28Z" finished-at="2018-02-16T12:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adesso]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="googleVerifySpanText(java.lang.String)[pri:1, instance:asf.asf.google.scripts.GoogleSearch@6a1aab78]" name="googleVerifySpanText" duration-ms="38" started-at="2018-02-16T12:28:29Z" finished-at="2018-02-16T12:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adesso Schweiz AG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleVerifySpanText -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:asf.asf.google.scripts.GoogleSearch@6a1aab78]" name="quit" is-config="true" duration-ms="704" started-at="2018-02-16T12:28:29Z" finished-at="2018-02-16T12:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- asf.asf.google.scripts.GoogleSearch -->
+    </test> <!-- GoogleSearchAdesso -->
+  </suite> <!-- GoogleSearch (0) -->
+  <suite name="GoogleSearch (2)" duration-ms="6690" started-at="2018-02-16T12:28:37Z" finished-at="2018-02-16T12:28:43Z">
+    <groups>
+    </groups>
+    <test name="GoogleSearchAdesso" duration-ms="6690" started-at="2018-02-16T12:28:37Z" finished-at="2018-02-16T12:28:43Z">
+      <class name="asf.asf.google.scripts.GoogleSearch">
+        <test-method status="PASS" signature="startWebDriver(java.lang.String)[pri:0, instance:asf.asf.google.scripts.GoogleSearch@18bf3d14]" name="startWebDriver" is-config="true" duration-ms="3302" started-at="2018-02-16T12:28:37Z" finished-at="2018-02-16T12:28:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="setUrl(java.lang.String)[pri:0, instance:asf.asf.google.scripts.GoogleSearch@18bf3d14]" name="setUrl" is-config="true" duration-ms="1214" started-at="2018-02-16T12:28:40Z" depends-on-methods="asf.asf.general.Selenium.startWebDriver" finished-at="2018-02-16T12:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUrl -->
+        <test-method status="PASS" signature="googleSearch(java.lang.String)[pri:0, instance:asf.asf.google.scripts.GoogleSearch@18bf3d14]" name="googleSearch" duration-ms="1409" started-at="2018-02-16T12:28:41Z" finished-at="2018-02-16T12:28:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bern]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="FAIL" signature="googleVerifySpanText(java.lang.String)[pri:1, instance:asf.asf.google.scripts.GoogleSearch@18bf3d14]" name="googleVerifySpanText" duration-ms="36" started-at="2018-02-16T12:28:43Z" finished-at="2018-02-16T12:28:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beron]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Beron] but found [Bern]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Beron] but found [Bern]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at asf.asf.google.GoogleActions.googleVerifySpanText(GoogleActions.java:17)
+at asf.asf.google.scripts.GoogleSearch.googleVerifySpanText(GoogleSearch.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleVerifySpanText -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:asf.asf.google.scripts.GoogleSearch@18bf3d14]" name="quit" is-config="true" duration-ms="726" started-at="2018-02-16T12:28:43Z" finished-at="2018-02-16T12:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- asf.asf.google.scripts.GoogleSearch -->
+    </test> <!-- GoogleSearchAdesso -->
+  </suite> <!-- GoogleSearch (2) -->
+  <suite name="GoogleSearch (1)" duration-ms="6891" started-at="2018-02-16T12:28:30Z" finished-at="2018-02-16T12:28:37Z">
+    <groups>
+    </groups>
+    <test name="GoogleSearchAdesso" duration-ms="6891" started-at="2018-02-16T12:28:30Z" finished-at="2018-02-16T12:28:37Z">
+      <class name="asf.asf.google.scripts.GoogleSearch">
+        <test-method status="PASS" signature="startWebDriver(java.lang.String)[pri:0, instance:asf.asf.google.scripts.GoogleSearch@17d0685f]" name="startWebDriver" is-config="true" duration-ms="3220" started-at="2018-02-16T12:28:30Z" finished-at="2018-02-16T12:28:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="setUrl(java.lang.String)[pri:0, instance:asf.asf.google.scripts.GoogleSearch@17d0685f]" name="setUrl" is-config="true" duration-ms="1298" started-at="2018-02-16T12:28:33Z" depends-on-methods="asf.asf.general.Selenium.startWebDriver" finished-at="2018-02-16T12:28:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUrl -->
+        <test-method status="PASS" signature="googleSearch(java.lang.String)[pri:0, instance:asf.asf.google.scripts.GoogleSearch@17d0685f]" name="googleSearch" duration-ms="1634" started-at="2018-02-16T12:28:34Z" finished-at="2018-02-16T12:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zurich]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="googleVerifySpanText(java.lang.String)[pri:1, instance:asf.asf.google.scripts.GoogleSearch@17d0685f]" name="googleVerifySpanText" duration-ms="32" started-at="2018-02-16T12:28:36Z" finished-at="2018-02-16T12:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zürich]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleVerifySpanText -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:asf.asf.google.scripts.GoogleSearch@17d0685f]" name="quit" is-config="true" duration-ms="703" started-at="2018-02-16T12:28:36Z" finished-at="2018-02-16T12:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- asf.asf.google.scripts.GoogleSearch -->
+    </test> <!-- GoogleSearchAdesso -->
+  </suite> <!-- GoogleSearch (1) -->
+</testng-results>

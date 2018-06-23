@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<suite name="GoogleSearch">
+
+	<test name="GoogleSearchAdesso">
+		<parameter name="url" value ="http://www.google.ch"/>
+		<parameter name="search" value ="Bern"/>
+		<parameter name="verify" value ="Beron"/>
+		<classes>
+			<class name="asf.asf.google.scripts.GoogleSearch" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GoogleSearch]">
+  <test thread-count="5" name="GoogleSearchAdesso(failed)">
+    <parameter name="search" value="Adesso"/>
+    <parameter name="verify" value="adesso Schweiz AG"/>
+    <parameter name="url" value="http://www.google.ch"/>
+    <classes>
+      <class name="asf.asf.google.scripts.GoogleSearch">
+        <methods>
+          <include name="googleSearch"/>
+          <include name="setUrl"/>
+          <include name="quit"/>
+          <include name="startWebDriver"/>
+          <include name="googleVerifySpanText"/>
+        </methods>
+      </class> <!-- asf.asf.google.scripts.GoogleSearch -->
+    </classes>
+  </test> <!-- GoogleSearchAdesso(failed) -->
+</suite> <!-- Failed suite [GoogleSearch] -->
